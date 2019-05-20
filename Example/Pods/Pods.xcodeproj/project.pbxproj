@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057E811C914027128F3C8C35AED15DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		082EE53807B56671CFFC4937706B6CA5 /* CxyCarPlateNumberKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCB2A9DD0561DDB91F7731E9BF51CFC /* CxyCarPlateNumberKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083ED1A42E9A3C805597436DB064113A /* CxyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 26861F5A778548C0B6E5AC0106924FAD /* CxyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D28C75F019D6B35607F2B8652651E67 /* CxyCarPlateNumberKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A7C252E67F83E671240D4BDDBBB266 /* CxyCarPlateNumberKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14369218FD48CBACF8E1E0DCDCC38A6F /* CxyCarPlateNumberTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE354EE4D8C16DDCA2EA16199215D1D /* CxyCarPlateNumberTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9A99B45DBAB9243BB31B30416F4AA9 /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0852DB530E70210D252D4E36776645AE /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25FDF999B2FE924958B356948CA3D4C6 /* UITextField+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB96719191FE547C1CDB74E760DCE0E /* UITextField+IndexPath.m */; };
+		284195B6E22A34DE52B1C25E9F3C83FD /* CxyCarPlateNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AC6761D90DF24BED9787A8A4F86BF /* CxyCarPlateNumberTextField.m */; };
+		3FF0421688BA974601322831E16558BF /* CxyCarPlateNumberKeyBoardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A5FB028F46CE2D95704185D38BC4FB /* CxyCarPlateNumberKeyBoardViewModel.m */; };
+		40D7B083F3772BB21AA8F488109E608B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BAF889FA56B3CD7C8E08CA4C8EDA /* ReplaceMe.m */; };
+		45290D23ED5E35B994338393E8C03972 /* CxyCarPlateNumberKeyBoardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F2AE48A7B101D488513FE7A1A421F8 /* CxyCarPlateNumberKeyBoardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59417AD9C284B63ACD1A841AA34B8922 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B205E6A48D77CEA692A181434EAE6372 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635442134C302C4451CA5C51B8B6F2B7 /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CBDB70A41EB776EDF5F7CFD9F8A8CF /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m */; };
+		6C2069B5B5C49D4C6629388A2E9D810B /* CxyCarPlateNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66613F18D07D2F6A97F59FCE17A4C00A /* CxyCarPlateNumberViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F47DEB9BC1381EA1F1C47EC514201F4 /* CxyCarPlateNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CAF94CAB25AA4611B888DEE0EAC5F /* CxyCarPlateNumberKeyBoard.m */; };
+		764DB1888C8B3122DD0FC538E1AE326D /* CxyCarPlateNumberHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A2210DDC14A32926B946D62B4C7644 /* CxyCarPlateNumberHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768D94FBD838ABA2ADE2C375049D0FE3 /* UITextField+SelectedRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 9363A9EA87E8354309B28C0E92EB3418 /* UITextField+SelectedRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5B89A9DAB1B51F1A03DF484CB7D24D /* CxyCarPlateNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C75081EF0F35B59DAF74E89B4A13F /* CxyCarPlateNumberCell.m */; };
+		7DC5D11CB40663E190C6A48E5BDE1391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		810BADAF3318DB2BADF6D99B80BB0570 /* CxyCarPlateNumberKeyBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F51331239F3F7307C08BF731E1A4952C /* CxyCarPlateNumberKeyBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8149A7328BFEACF46679C5DED89B85BC /* CxyCarPlateNumberKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C46FE085F6DF502B391367643EAD09D9 /* CxyCarPlateNumberKeyBoard-dummy.m */; };
+		82D4EBC09E836AF8CD120B4324E3AB9A /* CxyCarPlateNumberKeyBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F50D63A150BE754D5F5F7250B738F5 /* CxyCarPlateNumberKeyBoardCell.m */; };
+		842723CD98AE574031A61D20846E599C /* CxyCarPlateNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F81491040745842992029EFA028A1 /* CxyCarPlateNumberViewController.m */; };
+		A49562E898D0A37C47C2707A844B8769 /* CxyCarPlateNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF187ADAF7D52AA40740E625A2222FF /* CxyCarPlateNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36A34306BF32929B7B41A5F70EED6C0 /* UITextField+SelectedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA7C942E33B39279FFFF227038BF445 /* UITextField+SelectedRange.m */; };
+		CFC2A1481ECAAA0FE145BE7410EFC426 /* CxyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 636470FFD5DAE7D62157221CEFA5BFF5 /* CxyTextField.m */; };
+		D0DBD22B3581675A0BDCF59BBA554195 /* CxyCarPlateNumberKeyBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E086CE1D6A80EAFE9AE6CC8D0B7A11D0 /* CxyCarPlateNumberKeyBoardModel.m */; };
+		D9CAA912455C1B423765683516A275E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DEE6A853A7ADA4F81FBC67C37C881242 /* UITextField+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2E2E4448B35C942A7443A8FE03B1C1 /* UITextField+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7CD56B75CD8DA3E77E81600F5A52A2 /* CxyCarPlateNumberKeyBoardViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 967247C12BC5D6911B081438C3327D7F /* CxyCarPlateNumberKeyBoardViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3525239D1DCDDEF8F743412920DEE4D /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DC52CD4A02FA1B5361481E605ACA4 /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541430480B5E4319ECB27C10A4206353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C037502937E63E38E956CBF5F203A1;
+			remoteInfo = "Pods-CxyCarPlateNumberKeyBoard_Example";
+		};
+		D31BFF500B05B58A4ED4CCE54163B983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608A5D36F7AD27B0F17D9E502B194913;
+			remoteInfo = CxyCarPlateNumberKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0101412F57E00139E1026A7528BDB398 /* Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
+		016DF3D170A87EAC8E1CD10AF746F407 /* Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		02A5FB028F46CE2D95704185D38BC4FB /* CxyCarPlateNumberKeyBoardViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoardViewModel.m; sourceTree = "<group>"; };
+		072CAF94CAB25AA4611B888DEE0EAC5F /* CxyCarPlateNumberKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoard.m; sourceTree = "<group>"; };
+		0852DB530E70210D252D4E36776645AE /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
+		10A2210DDC14A32926B946D62B4C7644 /* CxyCarPlateNumberHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CxyCarPlateNumberHeader.h; path = CxyCarPlateNumberKeyBoard/Classes/CxyCarPlateNumberHeader.h; sourceTree = "<group>"; };
+		121DC52CD4A02FA1B5361481E605ACA4 /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
+		19A7C252E67F83E671240D4BDDBBB266 /* CxyCarPlateNumberKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoard.h; sourceTree = "<group>"; };
+		1FB96719191FE547C1CDB74E760DCE0E /* UITextField+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+IndexPath.m"; sourceTree = "<group>"; };
+		26861F5A778548C0B6E5AC0106924FAD /* CxyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyTextField.h; sourceTree = "<group>"; };
+		2782EC4C7ECE886F1B7CD2AEA57E7D46 /* CxyCarPlateNumberKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CxyCarPlateNumberKeyBoard.modulemap; sourceTree = "<group>"; };
+		2E5E75E8EBCA4E109443AC4BE89C7619 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50F50D63A150BE754D5F5F7250B738F5 /* CxyCarPlateNumberKeyBoardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoardCell.m; sourceTree = "<group>"; };
+		5CF187ADAF7D52AA40740E625A2222FF /* CxyCarPlateNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberCell.h; sourceTree = "<group>"; };
+		6028ECF43361A1E7254BB337B588FB25 /* Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist"; sourceTree = "<group>"; };
+		62C124D06E9179E9860CC957EA35AAB2 /* Pods-CxyCarPlateNumberKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CxyCarPlateNumberKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
+		636470FFD5DAE7D62157221CEFA5BFF5 /* CxyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyTextField.m; sourceTree = "<group>"; };
+		658C689CE8052B5CC98D0F4A6EA15487 /* CxyCarPlateNumberKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CxyCarPlateNumberKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		66613F18D07D2F6A97F59FCE17A4C00A /* CxyCarPlateNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberViewController.h; sourceTree = "<group>"; };
+		676C334FA7162408AFC95AA8AE4D2496 /* Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CxyCarPlateNumberKeyBoard.xcconfig; sourceTree = "<group>"; };
+		7C643C164F9CB0CFBABB5EF6CD72C58E /* Pods-CxyCarPlateNumberKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E2E2E4448B35C942A7443A8FE03B1C1 /* UITextField+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+IndexPath.h"; sourceTree = "<group>"; };
+		80C0FB9BF207439ADAFE07C6406F1B4E /* Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist"; sourceTree = "<group>"; };
+		817E4214757741EB7AA31AF2A806EEB7 /* Pods-CxyCarPlateNumberKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CxyCarPlateNumberKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8A69388D5AA18055CD3B274CD1F90104 /* Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9363A9EA87E8354309B28C0E92EB3418 /* UITextField+SelectedRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SelectedRange.h"; sourceTree = "<group>"; };
+		94992467B9BCC57F45450A0F7231C30E /* Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		967247C12BC5D6911B081438C3327D7F /* CxyCarPlateNumberKeyBoardViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoardViewModel.h; sourceTree = "<group>"; };
+		9885D34D3EA7B786B85AC2B2CB39C308 /* Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A619BAF889FA56B3CD7C8E08CA4C8EDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CxyCarPlateNumberKeyBoard/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AAA7C942E33B39279FFFF227038BF445 /* UITextField+SelectedRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SelectedRange.m"; sourceTree = "<group>"; };
+		B205E6A48D77CEA692A181434EAE6372 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B60A47A5427FDA7B07FFD8260EBB9469 /* CxyCarPlateNumberKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CxyCarPlateNumberKeyBoard.framework; path = CxyCarPlateNumberKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CBDB70A41EB776EDF5F7CFD9F8A8CF /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
+		B96AC6761D90DF24BED9787A8A4F86BF /* CxyCarPlateNumberTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberTextField.m; sourceTree = "<group>"; };
+		BE8C75081EF0F35B59DAF74E89B4A13F /* CxyCarPlateNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberCell.m; sourceTree = "<group>"; };
+		C0CC87E94FE9C8DFFFD5F3E9A2D68317 /* CxyCarPlateNumberKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CxyCarPlateNumberKeyBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2E7CCC79E821639048A6B56FEB62285 /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CxyCarPlateNumberKeyBoard_Tests.framework; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46FE085F6DF502B391367643EAD09D9 /* CxyCarPlateNumberKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CxyCarPlateNumberKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		CC87012ED1971309A552897928D87A05 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DAD641B5B7C868B2DADD9B68D76E971C /* CxyCarPlateNumberKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CxyCarPlateNumberKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		DBCB2A9DD0561DDB91F7731E9BF51CFC /* CxyCarPlateNumberKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CxyCarPlateNumberKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		DFE354EE4D8C16DDCA2EA16199215D1D /* CxyCarPlateNumberTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberTextField.h; sourceTree = "<group>"; };
+		E086CE1D6A80EAFE9AE6CC8D0B7A11D0 /* CxyCarPlateNumberKeyBoardModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoardModel.m; sourceTree = "<group>"; };
+		E20E1C5E664A4E6B5EE0AE6EA5CE9545 /* Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E3F2AE48A7B101D488513FE7A1A421F8 /* CxyCarPlateNumberKeyBoardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoardCell.h; sourceTree = "<group>"; };
+		F2A5C50CC9BE24DF211D57787BD74183 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CxyCarPlateNumberKeyBoard_Example.framework; path = "Pods-CxyCarPlateNumberKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51331239F3F7307C08BF731E1A4952C /* CxyCarPlateNumberKeyBoardModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoardModel.h; sourceTree = "<group>"; };
+		FA5F81491040745842992029EFA028A1 /* CxyCarPlateNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberViewController.m; sourceTree = "<group>"; };
+		FACD508878E92093039438116D7782D2 /* Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D2739E0DE508CBD91CBBB0904C0CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC5D11CB40663E190C6A48E5BDE1391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE308C6F723FA1CF3C29D1FA5DB4F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CAA912455C1B423765683516A275E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0AE2A2B7ADAE0BCC03AA733A4BEB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057E811C914027128F3C8C35AED15DFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0515906B981657400CA1875AB7E0D6A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66613F18D07D2F6A97F59FCE17A4C00A /* CxyCarPlateNumberViewController.h */,
+				FA5F81491040745842992029EFA028A1 /* CxyCarPlateNumberViewController.m */,
+			);
+			name = Controller;
+			path = CxyCarPlateNumberKeyBoard/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		4F502EC655DE90E194ECC6E70C2A764C /* CxyCarPlateNumberKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				10A2210DDC14A32926B946D62B4C7644 /* CxyCarPlateNumberHeader.h */,
+				A619BAF889FA56B3CD7C8E08CA4C8EDA /* ReplaceMe.m */,
+				CADD32FE36C45402C8148E1332447A78 /* CarPlateNumberCell */,
+				F7EC0975B0E72AA530FEE3CE4BF225E6 /* Category */,
+				0515906B981657400CA1875AB7E0D6A8 /* Controller */,
+				65E776FE7869DB3104C7AD41718419B3 /* Model */,
+				56C127FAF1B69235CF76AF4C5B1C4EE5 /* Pod */,
+				7B965EF0DD6D7071BBD47CDA052E4657 /* Support Files */,
+				C59BEF87AF3F6BC877E4A8C09D5ECAD5 /* View */,
+				9DB011628E237D25BF36BD4A244EA346 /* ViewModel */,
+			);
+			name = CxyCarPlateNumberKeyBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		56C127FAF1B69235CF76AF4C5B1C4EE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC87E94FE9C8DFFFD5F3E9A2D68317 /* CxyCarPlateNumberKeyBoard.podspec */,
+				CC87012ED1971309A552897928D87A05 /* LICENSE */,
+				2E5E75E8EBCA4E109443AC4BE89C7619 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		65E776FE7869DB3104C7AD41718419B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F51331239F3F7307C08BF731E1A4952C /* CxyCarPlateNumberKeyBoardModel.h */,
+				E086CE1D6A80EAFE9AE6CC8D0B7A11D0 /* CxyCarPlateNumberKeyBoardModel.m */,
+			);
+			name = Model;
+			path = CxyCarPlateNumberKeyBoard/Classes/Model;
+			sourceTree = "<group>";
+		};
+		6FFAA0E2445183B43034D157A8F66156 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F502EC655DE90E194ECC6E70C2A764C /* CxyCarPlateNumberKeyBoard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B965EF0DD6D7071BBD47CDA052E4657 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2782EC4C7ECE886F1B7CD2AEA57E7D46 /* CxyCarPlateNumberKeyBoard.modulemap */,
+				7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */,
+				C46FE085F6DF502B391367643EAD09D9 /* CxyCarPlateNumberKeyBoard-dummy.m */,
+				658C689CE8052B5CC98D0F4A6EA15487 /* CxyCarPlateNumberKeyBoard-Info.plist */,
+				DAD641B5B7C868B2DADD9B68D76E971C /* CxyCarPlateNumberKeyBoard-prefix.pch */,
+				DBCB2A9DD0561DDB91F7731E9BF51CFC /* CxyCarPlateNumberKeyBoard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CxyCarPlateNumberKeyBoard";
+			sourceTree = "<group>";
+		};
+		9DB011628E237D25BF36BD4A244EA346 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				967247C12BC5D6911B081438C3327D7F /* CxyCarPlateNumberKeyBoardViewModel.h */,
+				02A5FB028F46CE2D95704185D38BC4FB /* CxyCarPlateNumberKeyBoardViewModel.m */,
+			);
+			name = ViewModel;
+			path = CxyCarPlateNumberKeyBoard/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		AA4D314362B36A99EB2ED12E00D90F54 /* Pods-CxyCarPlateNumberKeyBoard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				62C124D06E9179E9860CC957EA35AAB2 /* Pods-CxyCarPlateNumberKeyBoard_Example.modulemap */,
+				FACD508878E92093039438116D7782D2 /* Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.markdown */,
+				8A69388D5AA18055CD3B274CD1F90104 /* Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.plist */,
+				121DC52CD4A02FA1B5361481E605ACA4 /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m */,
+				817E4214757741EB7AA31AF2A806EEB7 /* Pods-CxyCarPlateNumberKeyBoard_Example-frameworks.sh */,
+				6028ECF43361A1E7254BB337B588FB25 /* Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist */,
+				0852DB530E70210D252D4E36776645AE /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h */,
+				016DF3D170A87EAC8E1CD10AF746F407 /* Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig */,
+				E20E1C5E664A4E6B5EE0AE6EA5CE9545 /* Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig */,
+			);
+			name = "Pods-CxyCarPlateNumberKeyBoard_Example";
+			path = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C59BEF87AF3F6BC877E4A8C09D5ECAD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19A7C252E67F83E671240D4BDDBBB266 /* CxyCarPlateNumberKeyBoard.h */,
+				072CAF94CAB25AA4611B888DEE0EAC5F /* CxyCarPlateNumberKeyBoard.m */,
+				E3F2AE48A7B101D488513FE7A1A421F8 /* CxyCarPlateNumberKeyBoardCell.h */,
+				50F50D63A150BE754D5F5F7250B738F5 /* CxyCarPlateNumberKeyBoardCell.m */,
+				DFE354EE4D8C16DDCA2EA16199215D1D /* CxyCarPlateNumberTextField.h */,
+				B96AC6761D90DF24BED9787A8A4F86BF /* CxyCarPlateNumberTextField.m */,
+				26861F5A778548C0B6E5AC0106924FAD /* CxyTextField.h */,
+				636470FFD5DAE7D62157221CEFA5BFF5 /* CxyTextField.m */,
+			);
+			name = View;
+			path = CxyCarPlateNumberKeyBoard/Classes/View;
+			sourceTree = "<group>";
+		};
+		C6BCA2DF87F9B6FB227608645E3C26DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D314362B36A99EB2ED12E00D90F54 /* Pods-CxyCarPlateNumberKeyBoard_Example */,
+				E7966EB4B3B86031D70218A234B1CDD6 /* Pods-CxyCarPlateNumberKeyBoard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CADD32FE36C45402C8148E1332447A78 /* CarPlateNumberCell */ = {
+			isa = PBXGroup;
+			children = (
+				5CF187ADAF7D52AA40740E625A2222FF /* CxyCarPlateNumberCell.h */,
+				BE8C75081EF0F35B59DAF74E89B4A13F /* CxyCarPlateNumberCell.m */,
+			);
+			name = CarPlateNumberCell;
+			path = CxyCarPlateNumberKeyBoard/Classes/CarPlateNumberCell;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6FFAA0E2445183B43034D157A8F66156 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E4E84D90CE54951B97BD2CB3F699C5EB /* Products */,
+				C6BCA2DF87F9B6FB227608645E3C26DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4E84D90CE54951B97BD2CB3F699C5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60A47A5427FDA7B07FFD8260EBB9469 /* CxyCarPlateNumberKeyBoard.framework */,
+				F2A5C50CC9BE24DF211D57787BD74183 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */,
+				C2E7CCC79E821639048A6B56FEB62285 /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7966EB4B3B86031D70218A234B1CDD6 /* Pods-CxyCarPlateNumberKeyBoard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0101412F57E00139E1026A7528BDB398 /* Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap */,
+				676C334FA7162408AFC95AA8AE4D2496 /* Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.markdown */,
+				9885D34D3EA7B786B85AC2B2CB39C308 /* Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.plist */,
+				B8CBDB70A41EB776EDF5F7CFD9F8A8CF /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m */,
+				80C0FB9BF207439ADAFE07C6406F1B4E /* Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist */,
+				B205E6A48D77CEA692A181434EAE6372 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h */,
+				94992467B9BCC57F45450A0F7231C30E /* Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig */,
+				7C643C164F9CB0CFBABB5EF6CD72C58E /* Pods-CxyCarPlateNumberKeyBoard_Tests.release.xcconfig */,
+			);
+			name = "Pods-CxyCarPlateNumberKeyBoard_Tests";
+			path = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Tests";
+			sourceTree = "<group>";
+		};
+		F7EC0975B0E72AA530FEE3CE4BF225E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7E2E2E4448B35C942A7443A8FE03B1C1 /* UITextField+IndexPath.h */,
+				1FB96719191FE547C1CDB74E760DCE0E /* UITextField+IndexPath.m */,
+				9363A9EA87E8354309B28C0E92EB3418 /* UITextField+SelectedRange.h */,
+				AAA7C942E33B39279FFFF227038BF445 /* UITextField+SelectedRange.m */,
+			);
+			name = Category;
+			path = CxyCarPlateNumberKeyBoard/Classes/Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F25B9A31DCA60A067998BD69EF9771C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49562E898D0A37C47C2707A844B8769 /* CxyCarPlateNumberCell.h in Headers */,
+				764DB1888C8B3122DD0FC538E1AE326D /* CxyCarPlateNumberHeader.h in Headers */,
+				082EE53807B56671CFFC4937706B6CA5 /* CxyCarPlateNumberKeyBoard-umbrella.h in Headers */,
+				0D28C75F019D6B35607F2B8652651E67 /* CxyCarPlateNumberKeyBoard.h in Headers */,
+				45290D23ED5E35B994338393E8C03972 /* CxyCarPlateNumberKeyBoardCell.h in Headers */,
+				810BADAF3318DB2BADF6D99B80BB0570 /* CxyCarPlateNumberKeyBoardModel.h in Headers */,
+				EE7CD56B75CD8DA3E77E81600F5A52A2 /* CxyCarPlateNumberKeyBoardViewModel.h in Headers */,
+				14369218FD48CBACF8E1E0DCDCC38A6F /* CxyCarPlateNumberTextField.h in Headers */,
+				6C2069B5B5C49D4C6629388A2E9D810B /* CxyCarPlateNumberViewController.h in Headers */,
+				083ED1A42E9A3C805597436DB064113A /* CxyTextField.h in Headers */,
+				DEE6A853A7ADA4F81FBC67C37C881242 /* UITextField+IndexPath.h in Headers */,
+				768D94FBD838ABA2ADE2C375049D0FE3 /* UITextField+SelectedRange.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199EBBE726DFBCF3DEC8E7F544627E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9A99B45DBAB9243BB31B30416F4AA9 /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F51905910C064AD93DAF2E5C6E1249A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59417AD9C284B63ACD1A841AA34B8922 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		608A5D36F7AD27B0F17D9E502B194913 /* CxyCarPlateNumberKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6A4DF14B8C3A63F02A999684BB6BF6 /* Build configuration list for PBXNativeTarget "CxyCarPlateNumberKeyBoard" */;
+			buildPhases = (
+				0F25B9A31DCA60A067998BD69EF9771C /* Headers */,
+				0E3A6F5987AC84492293EC283820303E /* Sources */,
+				BE0AE2A2B7ADAE0BCC03AA733A4BEB4A /* Frameworks */,
+				03CF2AFC375166B2271F23F0AF485041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CxyCarPlateNumberKeyBoard;
+			productName = CxyCarPlateNumberKeyBoard;
+			productReference = B60A47A5427FDA7B07FFD8260EBB9469 /* CxyCarPlateNumberKeyBoard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9B73B1443176CB17FD33360A63D3336 /* Pods-CxyCarPlateNumberKeyBoard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F710A051512813B63CFDDEB423453083 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Tests" */;
+			buildPhases = (
+				2F51905910C064AD93DAF2E5C6E1249A /* Headers */,
+				82CA0ABDBB8CA278DE7E1959126B7E43 /* Sources */,
+				50D2739E0DE508CBD91CBBB0904C0CCF /* Frameworks */,
+				3D59EB5E45F3AFA7BB92AAF04CDD0D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44843BAD6F86EFE79459E11278FF65D /* PBXTargetDependency */,
+			);
+			name = "Pods-CxyCarPlateNumberKeyBoard_Tests";
+			productName = "Pods-CxyCarPlateNumberKeyBoard_Tests";
+			productReference = C2E7CCC79E821639048A6B56FEB62285 /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8C037502937E63E38E956CBF5F203A1 /* Pods-CxyCarPlateNumberKeyBoard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776A057C016F881828B937052C39D772 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Example" */;
+			buildPhases = (
+				199EBBE726DFBCF3DEC8E7F544627E83 /* Headers */,
+				A1E550AC74B566DCE56457598FB6BEED /* Sources */,
+				ADE308C6F723FA1CF3C29D1FA5DB4F25 /* Frameworks */,
+				28184A5EA1423C6B90277750FC59D4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2433010F45D950D659F211DB1D0FB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CxyCarPlateNumberKeyBoard_Example";
+			productName = "Pods-CxyCarPlateNumberKeyBoard_Example";
+			productReference = F2A5C50CC9BE24DF211D57787BD74183 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E4E84D90CE54951B97BD2CB3F699C5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608A5D36F7AD27B0F17D9E502B194913 /* CxyCarPlateNumberKeyBoard */,
+				F8C037502937E63E38E956CBF5F203A1 /* Pods-CxyCarPlateNumberKeyBoard_Example */,
+				A9B73B1443176CB17FD33360A63D3336 /* Pods-CxyCarPlateNumberKeyBoard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CF2AFC375166B2271F23F0AF485041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28184A5EA1423C6B90277750FC59D4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59EB5E45F3AFA7BB92AAF04CDD0D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E3A6F5987AC84492293EC283820303E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5B89A9DAB1B51F1A03DF484CB7D24D /* CxyCarPlateNumberCell.m in Sources */,
+				8149A7328BFEACF46679C5DED89B85BC /* CxyCarPlateNumberKeyBoard-dummy.m in Sources */,
+				6F47DEB9BC1381EA1F1C47EC514201F4 /* CxyCarPlateNumberKeyBoard.m in Sources */,
+				82D4EBC09E836AF8CD120B4324E3AB9A /* CxyCarPlateNumberKeyBoardCell.m in Sources */,
+				D0DBD22B3581675A0BDCF59BBA554195 /* CxyCarPlateNumberKeyBoardModel.m in Sources */,
+				3FF0421688BA974601322831E16558BF /* CxyCarPlateNumberKeyBoardViewModel.m in Sources */,
+				284195B6E22A34DE52B1C25E9F3C83FD /* CxyCarPlateNumberTextField.m in Sources */,
+				842723CD98AE574031A61D20846E599C /* CxyCarPlateNumberViewController.m in Sources */,
+				CFC2A1481ECAAA0FE145BE7410EFC426 /* CxyTextField.m in Sources */,
+				40D7B083F3772BB21AA8F488109E608B /* ReplaceMe.m in Sources */,
+				25FDF999B2FE924958B356948CA3D4C6 /* UITextField+IndexPath.m in Sources */,
+				B36A34306BF32929B7B41A5F70EED6C0 /* UITextField+SelectedRange.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CA0ABDBB8CA278DE7E1959126B7E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635442134C302C4451CA5C51B8B6F2B7 /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E550AC74B566DCE56457598FB6BEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3525239D1DCDDEF8F743412920DEE4D /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2433010F45D950D659F211DB1D0FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CxyCarPlateNumberKeyBoard;
+			target = 608A5D36F7AD27B0F17D9E502B194913 /* CxyCarPlateNumberKeyBoard */;
+			targetProxy = D31BFF500B05B58A4ED4CCE54163B983 /* PBXContainerItemProxy */;
+		};
+		A44843BAD6F86EFE79459E11278FF65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CxyCarPlateNumberKeyBoard_Example";
+			target = F8C037502937E63E38E956CBF5F203A1 /* Pods-CxyCarPlateNumberKeyBoard_Example */;
+			targetProxy = 541430480B5E4319ECB27C10A4206353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39FA210795123E230ECFCAA5FC0FD8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94992467B9BCC57F45450A0F7231C30E /* Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Tests/Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Tests/Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48BE3C9E139535FB3E96D30CAE78451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = CxyCarPlateNumberKeyBoard;
+				PRODUCT_NAME = CxyCarPlateNumberKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		543611B237EBEA8DA8332EC26AD42E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C643C164F9CB0CFBABB5EF6CD72C58E /* Pods-CxyCarPlateNumberKeyBoard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Tests/Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Tests/Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7469A36D1D854F8C16B537650D5050DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016DF3D170A87EAC8E1CD10AF746F407 /* Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8FDE88FEEF994ACEB82BD4C805266A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = CxyCarPlateNumberKeyBoard;
+				PRODUCT_NAME = CxyCarPlateNumberKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC2051EAF0AEC28A7466223E56C3A754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20E1C5E664A4E6B5EE0AE6EA5CE9545 /* Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776A057C016F881828B937052C39D772 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7469A36D1D854F8C16B537650D5050DA /* Debug */,
+				CC2051EAF0AEC28A7466223E56C3A754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6A4DF14B8C3A63F02A999684BB6BF6 /* Build configuration list for PBXNativeTarget "CxyCarPlateNumberKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDE88FEEF994ACEB82BD4C805266A19 /* Debug */,
+				48BE3C9E139535FB3E96D30CAE78451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F710A051512813B63CFDDEB423453083 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FA210795123E230ECFCAA5FC0FD8F6 /* Debug */,
+				543611B237EBEA8DA8332EC26AD42E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module CxyCarPlateNumberKeyBoard {
+  umbrella header "CxyCarPlateNumberKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}
