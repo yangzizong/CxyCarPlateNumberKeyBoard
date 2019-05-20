@@ -7,52 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		057E811C914027128F3C8C35AED15DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		082EE53807B56671CFFC4937706B6CA5 /* CxyCarPlateNumberKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCB2A9DD0561DDB91F7731E9BF51CFC /* CxyCarPlateNumberKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		083ED1A42E9A3C805597436DB064113A /* CxyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 26861F5A778548C0B6E5AC0106924FAD /* CxyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D28C75F019D6B35607F2B8652651E67 /* CxyCarPlateNumberKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A7C252E67F83E671240D4BDDBBB266 /* CxyCarPlateNumberKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14369218FD48CBACF8E1E0DCDCC38A6F /* CxyCarPlateNumberTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE354EE4D8C16DDCA2EA16199215D1D /* CxyCarPlateNumberTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D9A99B45DBAB9243BB31B30416F4AA9 /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0852DB530E70210D252D4E36776645AE /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25FDF999B2FE924958B356948CA3D4C6 /* UITextField+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB96719191FE547C1CDB74E760DCE0E /* UITextField+IndexPath.m */; };
-		284195B6E22A34DE52B1C25E9F3C83FD /* CxyCarPlateNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AC6761D90DF24BED9787A8A4F86BF /* CxyCarPlateNumberTextField.m */; };
-		3FF0421688BA974601322831E16558BF /* CxyCarPlateNumberKeyBoardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A5FB028F46CE2D95704185D38BC4FB /* CxyCarPlateNumberKeyBoardViewModel.m */; };
-		40D7B083F3772BB21AA8F488109E608B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BAF889FA56B3CD7C8E08CA4C8EDA /* ReplaceMe.m */; };
-		45290D23ED5E35B994338393E8C03972 /* CxyCarPlateNumberKeyBoardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F2AE48A7B101D488513FE7A1A421F8 /* CxyCarPlateNumberKeyBoardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143CF429900108B08638937EF3325444 /* CxyCarPlateNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C75081EF0F35B59DAF74E89B4A13F /* CxyCarPlateNumberCell.m */; };
+		16879C3E4881D6D0F21F39C9A092A3BC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A09B12EDB3932D7E2E1D89B529AEE97 /* CxyCarPlateNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CAF94CAB25AA4611B888DEE0EAC5F /* CxyCarPlateNumberKeyBoard.m */; };
+		1B4F26B28932BAD3ADA39B6F42D80363 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */; };
+		1DEC61BBEA747A5A57198D94F87FB2BC /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */; };
+		21DABCEF81864B648A67201A675DB9A7 /* CxyCarPlateNumberKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C46FE085F6DF502B391367643EAD09D9 /* CxyCarPlateNumberKeyBoard-dummy.m */; };
+		26901053C45C1C1C69923B1805396574 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2B7006DE6F6745D919A7981A81A075 /* UITextField+SelectedRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 9363A9EA87E8354309B28C0E92EB3418 /* UITextField+SelectedRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		340B156095ED9F14FE0A3B3579697C67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */; };
+		358C0E7CC515818193A3F12756EF45AD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */; };
+		3B35A5CD7CC0F9C46CF3DFF508CAFF14 /* CxyCarPlateNumberHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A2210DDC14A32926B946D62B4C7644 /* CxyCarPlateNumberHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F31E9AB8C06453A5757AC3468A7A89A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BAF889FA56B3CD7C8E08CA4C8EDA /* ReplaceMe.m */; };
+		4060E334199FB0FEB819B4833A26AD60 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */; };
+		4AD4ABF99A4D07B6E58CD87E6ED9472A /* CxyCarPlateNumberKeyBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E086CE1D6A80EAFE9AE6CC8D0B7A11D0 /* CxyCarPlateNumberKeyBoardModel.m */; };
+		50BBAE9DFAA6B804A086D2ED58EF9550 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */; };
+		51C966D171BF8FD5C6694B36D9D3B9B7 /* CxyCarPlateNumberTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE354EE4D8C16DDCA2EA16199215D1D /* CxyCarPlateNumberTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59417AD9C284B63ACD1A841AA34B8922 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B205E6A48D77CEA692A181434EAE6372 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630A9A6FFDC3319DC0C04AD0ABE48871 /* CxyCarPlateNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AC6761D90DF24BED9787A8A4F86BF /* CxyCarPlateNumberTextField.m */; };
 		635442134C302C4451CA5C51B8B6F2B7 /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CBDB70A41EB776EDF5F7CFD9F8A8CF /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m */; };
-		6C2069B5B5C49D4C6629388A2E9D810B /* CxyCarPlateNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66613F18D07D2F6A97F59FCE17A4C00A /* CxyCarPlateNumberViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F47DEB9BC1381EA1F1C47EC514201F4 /* CxyCarPlateNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 072CAF94CAB25AA4611B888DEE0EAC5F /* CxyCarPlateNumberKeyBoard.m */; };
-		764DB1888C8B3122DD0FC538E1AE326D /* CxyCarPlateNumberHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A2210DDC14A32926B946D62B4C7644 /* CxyCarPlateNumberHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		768D94FBD838ABA2ADE2C375049D0FE3 /* UITextField+SelectedRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 9363A9EA87E8354309B28C0E92EB3418 /* UITextField+SelectedRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D5B89A9DAB1B51F1A03DF484CB7D24D /* CxyCarPlateNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C75081EF0F35B59DAF74E89B4A13F /* CxyCarPlateNumberCell.m */; };
-		7DC5D11CB40663E190C6A48E5BDE1391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		810BADAF3318DB2BADF6D99B80BB0570 /* CxyCarPlateNumberKeyBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F51331239F3F7307C08BF731E1A4952C /* CxyCarPlateNumberKeyBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8149A7328BFEACF46679C5DED89B85BC /* CxyCarPlateNumberKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C46FE085F6DF502B391367643EAD09D9 /* CxyCarPlateNumberKeyBoard-dummy.m */; };
-		82D4EBC09E836AF8CD120B4324E3AB9A /* CxyCarPlateNumberKeyBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F50D63A150BE754D5F5F7250B738F5 /* CxyCarPlateNumberKeyBoardCell.m */; };
-		842723CD98AE574031A61D20846E599C /* CxyCarPlateNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F81491040745842992029EFA028A1 /* CxyCarPlateNumberViewController.m */; };
-		A49562E898D0A37C47C2707A844B8769 /* CxyCarPlateNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF187ADAF7D52AA40740E625A2222FF /* CxyCarPlateNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B36A34306BF32929B7B41A5F70EED6C0 /* UITextField+SelectedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA7C942E33B39279FFFF227038BF445 /* UITextField+SelectedRange.m */; };
-		CFC2A1481ECAAA0FE145BE7410EFC426 /* CxyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 636470FFD5DAE7D62157221CEFA5BFF5 /* CxyTextField.m */; };
-		D0DBD22B3581675A0BDCF59BBA554195 /* CxyCarPlateNumberKeyBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E086CE1D6A80EAFE9AE6CC8D0B7A11D0 /* CxyCarPlateNumberKeyBoardModel.m */; };
-		D9CAA912455C1B423765683516A275E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DEE6A853A7ADA4F81FBC67C37C881242 /* UITextField+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2E2E4448B35C942A7443A8FE03B1C1 /* UITextField+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE7CD56B75CD8DA3E77E81600F5A52A2 /* CxyCarPlateNumberKeyBoardViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 967247C12BC5D6911B081438C3327D7F /* CxyCarPlateNumberKeyBoardViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3525239D1DCDDEF8F743412920DEE4D /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DC52CD4A02FA1B5361481E605ACA4 /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m */; };
+		67CF15D080FC08599E8F9A55C02F6588 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7494EA07B4943987B497496E794330D1 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A122F515D18A7B39E4B986B1D55115 /* CxyCarPlateNumberKeyBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F51331239F3F7307C08BF731E1A4952C /* CxyCarPlateNumberKeyBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7DE630C730E6507A7501819D907790 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DC5D11CB40663E190C6A48E5BDE1391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AA0E9706D8E2332CE6871E296A2A3D /* Foundation.framework */; };
+		839F0680964F158F1F9F27CB9652B5A8 /* CxyCarPlateNumberKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCB2A9DD0561DDB91F7731E9BF51CFC /* CxyCarPlateNumberKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A40FE0393C28F715D5CA95C6DE255E9 /* CxyCarPlateNumberKeyBoardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A5FB028F46CE2D95704185D38BC4FB /* CxyCarPlateNumberKeyBoardViewModel.m */; };
+		8B6F515C688CB7DB98B8EAEF788CF6F7 /* CxyCarPlateNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5F81491040745842992029EFA028A1 /* CxyCarPlateNumberViewController.m */; };
+		8CFE11CA6CBA29200CD085D16303C719 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */; };
+		9AA6C9512E6A20F06D66762F86878E70 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD7AEE1615CC5989E0CDF75BFBC477B /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0852DB530E70210D252D4E36776645AE /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BBAEED28BA027F9930A99D04085A3A6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9D160E4A209811794011BB1231AE49F9 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09DCD65010D696F779975CB7F304223 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */; };
+		A8AC3373EDFDF9257D5E2B9534F33F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AA0E9706D8E2332CE6871E296A2A3D /* Foundation.framework */; };
+		ADF0655925DDA31A7A4CADAA938EE5CF /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EB36A61B125049BCD0C70A8E2594E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F2DD3BD4DB295279A96A7ADA8EAD6 /* UIKit.framework */; };
+		B5021100B21AF1F31B09DCFD1C33C6A2 /* CxyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 26861F5A778548C0B6E5AC0106924FAD /* CxyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71540AFA6956EF630DF56E865EE036C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AA0E9706D8E2332CE6871E296A2A3D /* Foundation.framework */; };
+		BA6AECEEC68A45FF07BEA34EC061775B /* CxyCarPlateNumberKeyBoardViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 967247C12BC5D6911B081438C3327D7F /* CxyCarPlateNumberKeyBoardViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA83F0624D5E67DF5E383345FCC2B541 /* UITextField+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB96719191FE547C1CDB74E760DCE0E /* UITextField+IndexPath.m */; };
+		BB4CE06258A57FB0C81DA2BC9DF4D2CF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A1D0797A526151D782CD24B3EE16F1 /* CxyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 636470FFD5DAE7D62157221CEFA5BFF5 /* CxyTextField.m */; };
+		C50D2151F02D9DC09DE848B2FE3879B8 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C728BF630936AC7A84BD7D067B717933 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAE97F12799C6F697E5C17BF09961B5D /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8A86CE64B692E4471E11186691CF3E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */; };
+		CFD42CF265DCE5B28DD032AFD89209F0 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDA7AD282AAE383CD91622A9ED552B9 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5F302AE6EE6D760687B1A6969B7732C /* CxyCarPlateNumberKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A7C252E67F83E671240D4BDDBBB266 /* CxyCarPlateNumberKeyBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6DF741ABF9A664E2688DB4BCF26023B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */; };
+		D6F25BDA48968D4FDFCBD49A5DA3FEAB /* CxyCarPlateNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66613F18D07D2F6A97F59FCE17A4C00A /* CxyCarPlateNumberViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C4BF2755326A48FD74219F401E6DAA /* CxyCarPlateNumberKeyBoardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F2AE48A7B101D488513FE7A1A421F8 /* CxyCarPlateNumberKeyBoardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0CF48DCCBD655F1F85A382C3444F4DD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */; };
+		E21613E57828F8F3A1AAAA6D50D6AE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AA0E9706D8E2332CE6871E296A2A3D /* Foundation.framework */; };
+		E9C30DDF071BD655A124D88F8A449FCD /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DC52CD4A02FA1B5361481E605ACA4 /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m */; };
+		EB8FF98ADC5C9960B77238CDEA329405 /* UITextField+SelectedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA7C942E33B39279FFFF227038BF445 /* UITextField+SelectedRange.m */; };
+		EC1271A09E2D9B8979B82FC7C8720A42 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F122EECDC6AA4C8BED341561C3497F43 /* CxyCarPlateNumberKeyBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F50D63A150BE754D5F5F7250B738F5 /* CxyCarPlateNumberKeyBoardCell.m */; };
+		F3EB50F242904DA3F9F68CF29DD3AF9F /* CxyCarPlateNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF187ADAF7D52AA40740E625A2222FF /* CxyCarPlateNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8865EDBF393AAC8D41545C809EBEFB2 /* UITextField+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2E2E4448B35C942A7443A8FE03B1C1 /* UITextField+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC871649C77F5E34509F084C74B7F078 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		32E259C45980F8548FC836311F819D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D915099BE2D98360850D318FD442CDD;
+			remoteInfo = Masonry;
+		};
+		331BAB51D1F0EC324D6F7AF1DE53D570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D915099BE2D98360850D318FD442CDD;
+			remoteInfo = Masonry;
+		};
 		541430480B5E4319ECB27C10A4206353 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F8C037502937E63E38E956CBF5F203A1;
+			remoteGlobalIDString = E6D48E78ED218BEC0ABF6FE9CE2BA0A3;
 			remoteInfo = "Pods-CxyCarPlateNumberKeyBoard_Example";
 		};
-		D31BFF500B05B58A4ED4CCE54163B983 /* PBXContainerItemProxy */ = {
+		B4CE0CE787E38361196C22880E7893F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 608A5D36F7AD27B0F17D9E502B194913;
+			remoteGlobalIDString = 4DE1B4D1FB4C9A08C41CDB65EC8CC0C3;
 			remoteInfo = CxyCarPlateNumberKeyBoard;
 		};
 /* End PBXContainerItemProxy section */
@@ -60,55 +104,89 @@
 /* Begin PBXFileReference section */
 		0101412F57E00139E1026A7528BDB398 /* Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
 		016DF3D170A87EAC8E1CD10AF746F407 /* Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		02A5FB028F46CE2D95704185D38BC4FB /* CxyCarPlateNumberKeyBoardViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoardViewModel.m; sourceTree = "<group>"; };
+		02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		072CAF94CAB25AA4611B888DEE0EAC5F /* CxyCarPlateNumberKeyBoard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoard.m; sourceTree = "<group>"; };
 		0852DB530E70210D252D4E36776645AE /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
 		10A2210DDC14A32926B946D62B4C7644 /* CxyCarPlateNumberHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CxyCarPlateNumberHeader.h; path = CxyCarPlateNumberKeyBoard/Classes/CxyCarPlateNumberHeader.h; sourceTree = "<group>"; };
 		121DC52CD4A02FA1B5361481E605ACA4 /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
+		13AA0E9706D8E2332CE6871E296A2A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		19A7C252E67F83E671240D4BDDBBB266 /* CxyCarPlateNumberKeyBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoard.h; sourceTree = "<group>"; };
+		1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		1EED3939B762B031ECC4CD48278DB704 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB96719191FE547C1CDB74E760DCE0E /* UITextField+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+IndexPath.m"; sourceTree = "<group>"; };
+		21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		26861F5A778548C0B6E5AC0106924FAD /* CxyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyTextField.h; sourceTree = "<group>"; };
 		2782EC4C7ECE886F1B7CD2AEA57E7D46 /* CxyCarPlateNumberKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CxyCarPlateNumberKeyBoard.modulemap; sourceTree = "<group>"; };
+		2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5E75E8EBCA4E109443AC4BE89C7619 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		373F2DD3BD4DB295279A96A7ADA8EAD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		43BA56A061873718EC06171526FE1A00 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		49F89EE7582CE178ACD6E8B3A0E608EB /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CxyCarPlateNumberKeyBoard_Tests.framework; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		50F50D63A150BE754D5F5F7250B738F5 /* CxyCarPlateNumberKeyBoardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoardCell.m; sourceTree = "<group>"; };
+		5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		5CF187ADAF7D52AA40740E625A2222FF /* CxyCarPlateNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberCell.h; sourceTree = "<group>"; };
+		5F7D449538F9E2B3EBD18EA3D067B087 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CxyCarPlateNumberKeyBoard_Example.framework; path = "Pods-CxyCarPlateNumberKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028ECF43361A1E7254BB337B588FB25 /* Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist"; sourceTree = "<group>"; };
 		62C124D06E9179E9860CC957EA35AAB2 /* Pods-CxyCarPlateNumberKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CxyCarPlateNumberKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
 		636470FFD5DAE7D62157221CEFA5BFF5 /* CxyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyTextField.m; sourceTree = "<group>"; };
 		658C689CE8052B5CC98D0F4A6EA15487 /* CxyCarPlateNumberKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CxyCarPlateNumberKeyBoard-Info.plist"; sourceTree = "<group>"; };
 		66613F18D07D2F6A97F59FCE17A4C00A /* CxyCarPlateNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberViewController.h; sourceTree = "<group>"; };
 		676C334FA7162408AFC95AA8AE4D2496 /* Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CxyCarPlateNumberKeyBoard.xcconfig; sourceTree = "<group>"; };
 		7C643C164F9CB0CFBABB5EF6CD72C58E /* Pods-CxyCarPlateNumberKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		7E2E2E4448B35C942A7443A8FE03B1C1 /* UITextField+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+IndexPath.h"; sourceTree = "<group>"; };
 		80C0FB9BF207439ADAFE07C6406F1B4E /* Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-Info.plist"; sourceTree = "<group>"; };
 		817E4214757741EB7AA31AF2A806EEB7 /* Pods-CxyCarPlateNumberKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CxyCarPlateNumberKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		8A69388D5AA18055CD3B274CD1F90104 /* Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		9363A9EA87E8354309B28C0E92EB3418 /* UITextField+SelectedRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SelectedRange.h"; sourceTree = "<group>"; };
 		94992467B9BCC57F45450A0F7231C30E /* Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		967247C12BC5D6911B081438C3327D7F /* CxyCarPlateNumberKeyBoardViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoardViewModel.h; sourceTree = "<group>"; };
 		9885D34D3EA7B786B85AC2B2CB39C308 /* Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A3EC0121FDBC530599046D1A12C9E879 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		A619BAF889FA56B3CD7C8E08CA4C8EDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CxyCarPlateNumberKeyBoard/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		AAA7C942E33B39279FFFF227038BF445 /* UITextField+SelectedRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SelectedRange.m"; sourceTree = "<group>"; };
 		B205E6A48D77CEA692A181434EAE6372 /* Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B60A47A5427FDA7B07FFD8260EBB9469 /* CxyCarPlateNumberKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CxyCarPlateNumberKeyBoard.framework; path = CxyCarPlateNumberKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		B8CBDB70A41EB776EDF5F7CFD9F8A8CF /* Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CxyCarPlateNumberKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
 		B96AC6761D90DF24BED9787A8A4F86BF /* CxyCarPlateNumberTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberTextField.m; sourceTree = "<group>"; };
+		BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		BE8C75081EF0F35B59DAF74E89B4A13F /* CxyCarPlateNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberCell.m; sourceTree = "<group>"; };
 		C0CC87E94FE9C8DFFFD5F3E9A2D68317 /* CxyCarPlateNumberKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CxyCarPlateNumberKeyBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2E7CCC79E821639048A6B56FEB62285 /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CxyCarPlateNumberKeyBoard_Tests.framework; path = "Pods-CxyCarPlateNumberKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		C46FE085F6DF502B391367643EAD09D9 /* CxyCarPlateNumberKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CxyCarPlateNumberKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		C9C12C1A0F23196FEAFE90558F0DB3E1 /* CxyCarPlateNumberKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CxyCarPlateNumberKeyBoard.framework; path = CxyCarPlateNumberKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC87012ED1971309A552897928D87A05 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		DAD641B5B7C868B2DADD9B68D76E971C /* CxyCarPlateNumberKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CxyCarPlateNumberKeyBoard-prefix.pch"; sourceTree = "<group>"; };
 		DBCB2A9DD0561DDB91F7731E9BF51CFC /* CxyCarPlateNumberKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CxyCarPlateNumberKeyBoard-umbrella.h"; sourceTree = "<group>"; };
 		DFE354EE4D8C16DDCA2EA16199215D1D /* CxyCarPlateNumberTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberTextField.h; sourceTree = "<group>"; };
 		E086CE1D6A80EAFE9AE6CC8D0B7A11D0 /* CxyCarPlateNumberKeyBoardModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberKeyBoardModel.m; sourceTree = "<group>"; };
 		E20E1C5E664A4E6B5EE0AE6EA5CE9545 /* Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3F2AE48A7B101D488513FE7A1A421F8 /* CxyCarPlateNumberKeyBoardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoardCell.h; sourceTree = "<group>"; };
-		F2A5C50CC9BE24DF211D57787BD74183 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CxyCarPlateNumberKeyBoard_Example.framework; path = "Pods-CxyCarPlateNumberKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F51331239F3F7307C08BF731E1A4952C /* CxyCarPlateNumberKeyBoardModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxyCarPlateNumberKeyBoardModel.h; sourceTree = "<group>"; };
+		F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		F82B234F4F5BFC90ADFC13F2FCF6192E /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		FA5F81491040745842992029EFA028A1 /* CxyCarPlateNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CxyCarPlateNumberViewController.m; sourceTree = "<group>"; };
 		FACD508878E92093039438116D7782D2 /* Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CxyCarPlateNumberKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,19 +200,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADE308C6F723FA1CF3C29D1FA5DB4F25 /* Frameworks */ = {
+		6A808B52AC63E905C0E8BFB30C14CDCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CAA912455C1B423765683516A275E4 /* Foundation.framework in Frameworks */,
+				A8AC3373EDFDF9257D5E2B9534F33F94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE0AE2A2B7ADAE0BCC03AA733A4BEB4A /* Frameworks */ = {
+		8858AF5D33C969B9ACF13DC2BE6E7E32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057E811C914027128F3C8C35AED15DFA /* Foundation.framework in Frameworks */,
+				B71540AFA6956EF630DF56E865EE036C /* Foundation.framework in Frameworks */,
+				1DEC61BBEA747A5A57198D94F87FB2BC /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B63886E2E98FD22349829A113541B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21613E57828F8F3A1AAAA6D50D6AE8A /* Foundation.framework in Frameworks */,
+				B3EB36A61B125049BCD0C70A8E2594E6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +237,38 @@
 			);
 			name = Controller;
 			path = CxyCarPlateNumberKeyBoard/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		2F3DF5D181636AD77EADB3786873A4A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */,
+				3D915A039F654534AC7B4599A1BF90EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3383BD59F0CA45F38B2C4285AD319AC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC0121FDBC530599046D1A12C9E879 /* Masonry.modulemap */,
+				2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */,
+				266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */,
+				F82B234F4F5BFC90ADFC13F2FCF6192E /* Masonry-Info.plist */,
+				43BA56A061873718EC06171526FE1A00 /* Masonry-prefix.pch */,
+				7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		3D915A039F654534AC7B4599A1BF90EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				13AA0E9706D8E2332CE6871E296A2A3D /* Foundation.framework */,
+				373F2DD3BD4DB295279A96A7ADA8EAD6 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4F502EC655DE90E194ECC6E70C2A764C /* CxyCarPlateNumberKeyBoard */ = {
@@ -179,6 +299,17 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		57CAB5E1FA814B774AC0BBBA0E06230C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C12C1A0F23196FEAFE90558F0DB3E1 /* CxyCarPlateNumberKeyBoard.framework */,
+				1EED3939B762B031ECC4CD48278DB704 /* Masonry.framework */,
+				5F7D449538F9E2B3EBD18EA3D067B087 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */,
+				49F89EE7582CE178ACD6E8B3A0E608EB /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		65E776FE7869DB3104C7AD41718419B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +328,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7B965EF0DD6D7071BBD47CDA052E4657 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +348,40 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CxyCarPlateNumberKeyBoard";
+			sourceTree = "<group>";
+		};
+		8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */,
+				21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */,
+				EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */,
+				31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */,
+				B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */,
+				BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */,
+				D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */,
+				A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */,
+				9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */,
+				F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */,
+				5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */,
+				8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */,
+				1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */,
+				2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */,
+				F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */,
+				C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */,
+				01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */,
+				6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */,
+				89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */,
+				2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */,
+				78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */,
+				02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */,
+				4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */,
+				3383BD59F0CA45F38B2C4285AD319AC1 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		9DB011628E237D25BF36BD4A244EA346 /* ViewModel */ = {
@@ -236,14 +409,6 @@
 			);
 			name = "Pods-CxyCarPlateNumberKeyBoard_Example";
 			path = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C59BEF87AF3F6BC877E4A8C09D5ECAD5 /* View */ = {
@@ -286,28 +451,11 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6FFAA0E2445183B43034D157A8F66156 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E4E84D90CE54951B97BD2CB3F699C5EB /* Products */,
+				2F3DF5D181636AD77EADB3786873A4A6 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				57CAB5E1FA814B774AC0BBBA0E06230C /* Products */,
 				C6BCA2DF87F9B6FB227608645E3C26DE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4E84D90CE54951B97BD2CB3F699C5EB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B60A47A5427FDA7B07FFD8260EBB9469 /* CxyCarPlateNumberKeyBoard.framework */,
-				F2A5C50CC9BE24DF211D57787BD74183 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */,
-				C2E7CCC79E821639048A6B56FEB62285 /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E7966EB4B3B86031D70218A234B1CDD6 /* Pods-CxyCarPlateNumberKeyBoard_Tests */ = {
@@ -341,30 +489,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F25B9A31DCA60A067998BD69EF9771C /* Headers */ = {
+		22DC20A04BE78E7063B4131610123CB5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49562E898D0A37C47C2707A844B8769 /* CxyCarPlateNumberCell.h in Headers */,
-				764DB1888C8B3122DD0FC538E1AE326D /* CxyCarPlateNumberHeader.h in Headers */,
-				082EE53807B56671CFFC4937706B6CA5 /* CxyCarPlateNumberKeyBoard-umbrella.h in Headers */,
-				0D28C75F019D6B35607F2B8652651E67 /* CxyCarPlateNumberKeyBoard.h in Headers */,
-				45290D23ED5E35B994338393E8C03972 /* CxyCarPlateNumberKeyBoardCell.h in Headers */,
-				810BADAF3318DB2BADF6D99B80BB0570 /* CxyCarPlateNumberKeyBoardModel.h in Headers */,
-				EE7CD56B75CD8DA3E77E81600F5A52A2 /* CxyCarPlateNumberKeyBoardViewModel.h in Headers */,
-				14369218FD48CBACF8E1E0DCDCC38A6F /* CxyCarPlateNumberTextField.h in Headers */,
-				6C2069B5B5C49D4C6629388A2E9D810B /* CxyCarPlateNumberViewController.h in Headers */,
-				083ED1A42E9A3C805597436DB064113A /* CxyTextField.h in Headers */,
-				DEE6A853A7ADA4F81FBC67C37C881242 /* UITextField+IndexPath.h in Headers */,
-				768D94FBD838ABA2ADE2C375049D0FE3 /* UITextField+SelectedRange.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		199EBBE726DFBCF3DEC8E7F544627E83 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D9A99B45DBAB9243BB31B30416F4AA9 /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h in Headers */,
+				F3EB50F242904DA3F9F68CF29DD3AF9F /* CxyCarPlateNumberCell.h in Headers */,
+				3B35A5CD7CC0F9C46CF3DFF508CAFF14 /* CxyCarPlateNumberHeader.h in Headers */,
+				839F0680964F158F1F9F27CB9652B5A8 /* CxyCarPlateNumberKeyBoard-umbrella.h in Headers */,
+				D5F302AE6EE6D760687B1A6969B7732C /* CxyCarPlateNumberKeyBoard.h in Headers */,
+				D9C4BF2755326A48FD74219F401E6DAA /* CxyCarPlateNumberKeyBoardCell.h in Headers */,
+				78A122F515D18A7B39E4B986B1D55115 /* CxyCarPlateNumberKeyBoardModel.h in Headers */,
+				BA6AECEEC68A45FF07BEA34EC061775B /* CxyCarPlateNumberKeyBoardViewModel.h in Headers */,
+				51C966D171BF8FD5C6694B36D9D3B9B7 /* CxyCarPlateNumberTextField.h in Headers */,
+				D6F25BDA48968D4FDFCBD49A5DA3FEAB /* CxyCarPlateNumberViewController.h in Headers */,
+				B5021100B21AF1F31B09DCFD1C33C6A2 /* CxyTextField.h in Headers */,
+				F8865EDBF393AAC8D41545C809EBEFB2 /* UITextField+IndexPath.h in Headers */,
+				2A2B7006DE6F6745D919A7981A81A075 /* UITextField+SelectedRange.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,25 +516,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		479B6803174D26F1A94996B0EB2D3BFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD7AEE1615CC5989E0CDF75BFBC477B /* Pods-CxyCarPlateNumberKeyBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EBF35FE72AAE4876A3FF7A41890B2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD42CF265DCE5B28DD032AFD89209F0 /* MASCompositeConstraint.h in Headers */,
+				FC871649C77F5E34509F084C74B7F078 /* MASConstraint+Private.h in Headers */,
+				7494EA07B4943987B497496E794330D1 /* MASConstraint.h in Headers */,
+				67CF15D080FC08599E8F9A55C02F6588 /* MASConstraintMaker.h in Headers */,
+				16879C3E4881D6D0F21F39C9A092A3BC /* MASLayoutConstraint.h in Headers */,
+				9D160E4A209811794011BB1231AE49F9 /* Masonry-umbrella.h in Headers */,
+				BB4CE06258A57FB0C81DA2BC9DF4D2CF /* Masonry.h in Headers */,
+				26901053C45C1C1C69923B1805396574 /* MASUtilities.h in Headers */,
+				EC1271A09E2D9B8979B82FC7C8720A42 /* MASViewAttribute.h in Headers */,
+				7D7DE630C730E6507A7501819D907790 /* MASViewConstraint.h in Headers */,
+				C728BF630936AC7A84BD7D067B717933 /* NSArray+MASAdditions.h in Headers */,
+				ADF0655925DDA31A7A4CADAA938EE5CF /* NSArray+MASShorthandAdditions.h in Headers */,
+				CFDA7AD282AAE383CD91622A9ED552B9 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				9AA6C9512E6A20F06D66762F86878E70 /* View+MASAdditions.h in Headers */,
+				C50D2151F02D9DC09DE848B2FE3879B8 /* View+MASShorthandAdditions.h in Headers */,
+				CAE97F12799C6F697E5C17BF09961B5D /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		608A5D36F7AD27B0F17D9E502B194913 /* CxyCarPlateNumberKeyBoard */ = {
+		4D915099BE2D98360850D318FD442CDD /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED6A4DF14B8C3A63F02A999684BB6BF6 /* Build configuration list for PBXNativeTarget "CxyCarPlateNumberKeyBoard" */;
+			buildConfigurationList = 2ED5EE2EC99E439F948DFC8640EA6A30 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				0F25B9A31DCA60A067998BD69EF9771C /* Headers */,
-				0E3A6F5987AC84492293EC283820303E /* Sources */,
-				BE0AE2A2B7ADAE0BCC03AA733A4BEB4A /* Frameworks */,
-				03CF2AFC375166B2271F23F0AF485041 /* Resources */,
+				F1EBF35FE72AAE4876A3FF7A41890B2B /* Headers */,
+				75FC20F1DA2843AA40C516D49361894A /* Sources */,
+				9B63886E2E98FD22349829A113541B30 /* Frameworks */,
+				0A4E5F87E04649FC741CC27C83A9D2CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1EED3939B762B031ECC4CD48278DB704 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DE1B4D1FB4C9A08C41CDB65EC8CC0C3 /* CxyCarPlateNumberKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0FBC17B220796F1C7114DFB220B2F0 /* Build configuration list for PBXNativeTarget "CxyCarPlateNumberKeyBoard" */;
+			buildPhases = (
+				22DC20A04BE78E7063B4131610123CB5 /* Headers */,
+				FD8C8533AB9E530CF46590055E08BE67 /* Sources */,
+				8858AF5D33C969B9ACF13DC2BE6E7E32 /* Frameworks */,
+				6486F59CE301AABFFFCF7D44D1EC66AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849ADD9D91A465D4C86653A545E2DFE1 /* PBXTargetDependency */,
+			);
 			name = CxyCarPlateNumberKeyBoard;
 			productName = CxyCarPlateNumberKeyBoard;
-			productReference = B60A47A5427FDA7B07FFD8260EBB9469 /* CxyCarPlateNumberKeyBoard.framework */;
+			productReference = C9C12C1A0F23196FEAFE90558F0DB3E1 /* CxyCarPlateNumberKeyBoard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9B73B1443176CB17FD33360A63D3336 /* Pods-CxyCarPlateNumberKeyBoard_Tests */ = {
@@ -413,26 +603,27 @@
 			);
 			name = "Pods-CxyCarPlateNumberKeyBoard_Tests";
 			productName = "Pods-CxyCarPlateNumberKeyBoard_Tests";
-			productReference = C2E7CCC79E821639048A6B56FEB62285 /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */;
+			productReference = 49F89EE7582CE178ACD6E8B3A0E608EB /* Pods_CxyCarPlateNumberKeyBoard_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F8C037502937E63E38E956CBF5F203A1 /* Pods-CxyCarPlateNumberKeyBoard_Example */ = {
+		E6D48E78ED218BEC0ABF6FE9CE2BA0A3 /* Pods-CxyCarPlateNumberKeyBoard_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 776A057C016F881828B937052C39D772 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Example" */;
+			buildConfigurationList = F4BF6FEC4611DA3E6557892249FA4AD0 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Example" */;
 			buildPhases = (
-				199EBBE726DFBCF3DEC8E7F544627E83 /* Headers */,
-				A1E550AC74B566DCE56457598FB6BEED /* Sources */,
-				ADE308C6F723FA1CF3C29D1FA5DB4F25 /* Frameworks */,
-				28184A5EA1423C6B90277750FC59D4DA /* Resources */,
+				479B6803174D26F1A94996B0EB2D3BFE /* Headers */,
+				4086CDC4FB7BAD79D3359B83E3E2FA9A /* Sources */,
+				6A808B52AC63E905C0E8BFB30C14CDCE /* Frameworks */,
+				9FC51F989DCDBCBF2B57927D96653581 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A2433010F45D950D659F211DB1D0FB2 /* PBXTargetDependency */,
+				DE8247FE4E44A5014F75F6DFCD4FAF63 /* PBXTargetDependency */,
+				E58EB868D08C014344DC2E42AC0AE64D /* PBXTargetDependency */,
 			);
 			name = "Pods-CxyCarPlateNumberKeyBoard_Example";
 			productName = "Pods-CxyCarPlateNumberKeyBoard_Example";
-			productReference = F2A5C50CC9BE24DF211D57787BD74183 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */;
+			productReference = 5F7D449538F9E2B3EBD18EA3D067B087 /* Pods_CxyCarPlateNumberKeyBoard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -452,26 +643,20 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E4E84D90CE54951B97BD2CB3F699C5EB /* Products */;
+			productRefGroup = 57CAB5E1FA814B774AC0BBBA0E06230C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				608A5D36F7AD27B0F17D9E502B194913 /* CxyCarPlateNumberKeyBoard */,
-				F8C037502937E63E38E956CBF5F203A1 /* Pods-CxyCarPlateNumberKeyBoard_Example */,
+				4DE1B4D1FB4C9A08C41CDB65EC8CC0C3 /* CxyCarPlateNumberKeyBoard */,
+				4D915099BE2D98360850D318FD442CDD /* Masonry */,
+				E6D48E78ED218BEC0ABF6FE9CE2BA0A3 /* Pods-CxyCarPlateNumberKeyBoard_Example */,
 				A9B73B1443176CB17FD33360A63D3336 /* Pods-CxyCarPlateNumberKeyBoard_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03CF2AFC375166B2271F23F0AF485041 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28184A5EA1423C6B90277750FC59D4DA /* Resources */ = {
+		0A4E5F87E04649FC741CC27C83A9D2CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,25 +670,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6486F59CE301AABFFFCF7D44D1EC66AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC51F989DCDBCBF2B57927D96653581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E3A6F5987AC84492293EC283820303E /* Sources */ = {
+		4086CDC4FB7BAD79D3359B83E3E2FA9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5B89A9DAB1B51F1A03DF484CB7D24D /* CxyCarPlateNumberCell.m in Sources */,
-				8149A7328BFEACF46679C5DED89B85BC /* CxyCarPlateNumberKeyBoard-dummy.m in Sources */,
-				6F47DEB9BC1381EA1F1C47EC514201F4 /* CxyCarPlateNumberKeyBoard.m in Sources */,
-				82D4EBC09E836AF8CD120B4324E3AB9A /* CxyCarPlateNumberKeyBoardCell.m in Sources */,
-				D0DBD22B3581675A0BDCF59BBA554195 /* CxyCarPlateNumberKeyBoardModel.m in Sources */,
-				3FF0421688BA974601322831E16558BF /* CxyCarPlateNumberKeyBoardViewModel.m in Sources */,
-				284195B6E22A34DE52B1C25E9F3C83FD /* CxyCarPlateNumberTextField.m in Sources */,
-				842723CD98AE574031A61D20846E599C /* CxyCarPlateNumberViewController.m in Sources */,
-				CFC2A1481ECAAA0FE145BE7410EFC426 /* CxyTextField.m in Sources */,
-				40D7B083F3772BB21AA8F488109E608B /* ReplaceMe.m in Sources */,
-				25FDF999B2FE924958B356948CA3D4C6 /* UITextField+IndexPath.m in Sources */,
-				B36A34306BF32929B7B41A5F70EED6C0 /* UITextField+SelectedRange.m in Sources */,
+				E9C30DDF071BD655A124D88F8A449FCD /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FC20F1DA2843AA40C516D49361894A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFE11CA6CBA29200CD085D16303C719 /* MASCompositeConstraint.m in Sources */,
+				D6DF741ABF9A664E2688DB4BCF26023B /* MASConstraint.m in Sources */,
+				1B4F26B28932BAD3ADA39B6F42D80363 /* MASConstraintMaker.m in Sources */,
+				358C0E7CC515818193A3F12756EF45AD /* MASLayoutConstraint.m in Sources */,
+				E0CF48DCCBD655F1F85A382C3444F4DD /* Masonry-dummy.m in Sources */,
+				A09DCD65010D696F779975CB7F304223 /* MASViewAttribute.m in Sources */,
+				CF8A86CE64B692E4471E11186691CF3E /* MASViewConstraint.m in Sources */,
+				50BBAE9DFAA6B804A086D2ED58EF9550 /* NSArray+MASAdditions.m in Sources */,
+				9BBAEED28BA027F9930A99D04085A3A6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				340B156095ED9F14FE0A3B3579697C67 /* View+MASAdditions.m in Sources */,
+				4060E334199FB0FEB819B4833A26AD60 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,32 +721,122 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1E550AC74B566DCE56457598FB6BEED /* Sources */ = {
+		FD8C8533AB9E530CF46590055E08BE67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3525239D1DCDDEF8F743412920DEE4D /* Pods-CxyCarPlateNumberKeyBoard_Example-dummy.m in Sources */,
+				143CF429900108B08638937EF3325444 /* CxyCarPlateNumberCell.m in Sources */,
+				21DABCEF81864B648A67201A675DB9A7 /* CxyCarPlateNumberKeyBoard-dummy.m in Sources */,
+				1A09B12EDB3932D7E2E1D89B529AEE97 /* CxyCarPlateNumberKeyBoard.m in Sources */,
+				F122EECDC6AA4C8BED341561C3497F43 /* CxyCarPlateNumberKeyBoardCell.m in Sources */,
+				4AD4ABF99A4D07B6E58CD87E6ED9472A /* CxyCarPlateNumberKeyBoardModel.m in Sources */,
+				8A40FE0393C28F715D5CA95C6DE255E9 /* CxyCarPlateNumberKeyBoardViewModel.m in Sources */,
+				630A9A6FFDC3319DC0C04AD0ABE48871 /* CxyCarPlateNumberTextField.m in Sources */,
+				8B6F515C688CB7DB98B8EAEF788CF6F7 /* CxyCarPlateNumberViewController.m in Sources */,
+				C1A1D0797A526151D782CD24B3EE16F1 /* CxyTextField.m in Sources */,
+				3F31E9AB8C06453A5757AC3468A7A89A /* ReplaceMe.m in Sources */,
+				BA83F0624D5E67DF5E383345FCC2B541 /* UITextField+IndexPath.m in Sources */,
+				EB8FF98ADC5C9960B77238CDEA329405 /* UITextField+SelectedRange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A2433010F45D950D659F211DB1D0FB2 /* PBXTargetDependency */ = {
+		849ADD9D91A465D4C86653A545E2DFE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CxyCarPlateNumberKeyBoard;
-			target = 608A5D36F7AD27B0F17D9E502B194913 /* CxyCarPlateNumberKeyBoard */;
-			targetProxy = D31BFF500B05B58A4ED4CCE54163B983 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 4D915099BE2D98360850D318FD442CDD /* Masonry */;
+			targetProxy = 32E259C45980F8548FC836311F819D99 /* PBXContainerItemProxy */;
 		};
 		A44843BAD6F86EFE79459E11278FF65D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CxyCarPlateNumberKeyBoard_Example";
-			target = F8C037502937E63E38E956CBF5F203A1 /* Pods-CxyCarPlateNumberKeyBoard_Example */;
+			target = E6D48E78ED218BEC0ABF6FE9CE2BA0A3 /* Pods-CxyCarPlateNumberKeyBoard_Example */;
 			targetProxy = 541430480B5E4319ECB27C10A4206353 /* PBXContainerItemProxy */;
+		};
+		DE8247FE4E44A5014F75F6DFCD4FAF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CxyCarPlateNumberKeyBoard;
+			target = 4DE1B4D1FB4C9A08C41CDB65EC8CC0C3 /* CxyCarPlateNumberKeyBoard */;
+			targetProxy = B4CE0CE787E38361196C22880E7893F9 /* PBXContainerItemProxy */;
+		};
+		E58EB868D08C014344DC2E42AC0AE64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 4D915099BE2D98360850D318FD442CDD /* Masonry */;
+			targetProxy = 331BAB51D1F0EC324D6F7AF1DE53D570 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D17F443AD196D88DE9FBDCDE50A19E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20E1C5E664A4E6B5EE0AE6EA5CE9545 /* Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E147A4387BD3799FAC63B17F4EEDD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016DF3D170A87EAC8E1CD10AF746F407 /* Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		39FA210795123E230ECFCAA5FC0FD8F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94992467B9BCC57F45450A0F7231C30E /* Pods-CxyCarPlateNumberKeyBoard_Tests.debug.xcconfig */;
@@ -573,37 +869,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		48BE3C9E139535FB3E96D30CAE78451E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard.modulemap";
-				PRODUCT_MODULE_NAME = CxyCarPlateNumberKeyBoard;
-				PRODUCT_NAME = CxyCarPlateNumberKeyBoard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -699,11 +964,10 @@
 			};
 			name = Release;
 		};
-		7469A36D1D854F8C16B537650D5050DA /* Debug */ = {
+		554605B25D1AB0A0F864BF4F6D134F40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 016DF3D170A87EAC8E1CD10AF746F407 /* Pods-CxyCarPlateNumberKeyBoard_Example.debug.xcconfig */;
+			baseConfigurationReference = 2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -713,19 +977,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -796,7 +1058,38 @@
 			};
 			name = Debug;
 		};
-		8FDE88FEEF994ACEB82BD4C805266A19 /* Debug */ = {
+		A0CFEF84AF81018DF4D8545C9667152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA062D39ECAF0094550AD1FB3370019D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */;
 			buildSettings = {
@@ -826,11 +1119,10 @@
 			};
 			name = Debug;
 		};
-		CC2051EAF0AEC28A7466223E56C3A754 /* Release */ = {
+		FC7B09B1DCD747BA01403782E728FA12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E20E1C5E664A4E6B5EE0AE6EA5CE9545 /* Pods-CxyCarPlateNumberKeyBoard_Example.release.xcconfig */;
+			baseConfigurationReference = 7A23E6ADE964C3E3EC5ACEF147E97F95 /* CxyCarPlateNumberKeyBoard.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -840,19 +1132,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CxyCarPlateNumberKeyBoard_Example/Pods-CxyCarPlateNumberKeyBoard_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CxyCarPlateNumberKeyBoard/CxyCarPlateNumberKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = CxyCarPlateNumberKeyBoard;
+				PRODUCT_NAME = CxyCarPlateNumberKeyBoard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -863,6 +1153,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2ED5EE2EC99E439F948DFC8640EA6A30 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554605B25D1AB0A0F864BF4F6D134F40 /* Debug */,
+				A0CFEF84AF81018DF4D8545C9667152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -872,20 +1171,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		776A057C016F881828B937052C39D772 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Example" */ = {
+		6F0FBC17B220796F1C7114DFB220B2F0 /* Build configuration list for PBXNativeTarget "CxyCarPlateNumberKeyBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7469A36D1D854F8C16B537650D5050DA /* Debug */,
-				CC2051EAF0AEC28A7466223E56C3A754 /* Release */,
+				DA062D39ECAF0094550AD1FB3370019D /* Debug */,
+				FC7B09B1DCD747BA01403782E728FA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED6A4DF14B8C3A63F02A999684BB6BF6 /* Build configuration list for PBXNativeTarget "CxyCarPlateNumberKeyBoard" */ = {
+		F4BF6FEC4611DA3E6557892249FA4AD0 /* Build configuration list for PBXNativeTarget "Pods-CxyCarPlateNumberKeyBoard_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FDE88FEEF994ACEB82BD4C805266A19 /* Debug */,
-				48BE3C9E139535FB3E96D30CAE78451E /* Release */,
+				2E147A4387BD3799FAC63B17F4EEDD2C /* Debug */,
+				0D17F443AD196D88DE9FBDCDE50A19E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

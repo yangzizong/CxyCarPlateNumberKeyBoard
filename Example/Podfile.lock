@@ -1,15 +1,22 @@
 PODS:
-  - CxyCarPlateNumberKeyBoard (0.1.0)
+  - CxyCarPlateNumberKeyBoard (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CxyCarPlateNumberKeyBoard (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   CxyCarPlateNumberKeyBoard:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CxyCarPlateNumberKeyBoard: 5e65d9b611c5743b8b153d6f57a074d5cb294cd9
+  CxyCarPlateNumberKeyBoard: cf14fee2e79ab48cb1db157d35c568a073884712
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 9e9d864a82cc66b78ea8ce48d2ea21e581754e14
 
