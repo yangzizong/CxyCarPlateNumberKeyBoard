@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CxyCarPlateNumberKeyBoard_Example' do
+  pod 'CxyCarPlateNumberKeyBoard', :path => '../'
+
+  target 'CxyCarPlateNumberKeyBoard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
